@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles__ltr.css">
+    
+</head>
+<body>
+    <div>
+        <nav class="navbar recruit-navbar navbar-expand-lg navbar-inverse navbar-fixed-top"style="padding: 5px;">
+            <div class="container-fluid" >
+                <div class="navbar-header" >
+                    <!-- Navbar Brand -->
+                    <a href="" class="navbar-brand">
+                        <img src="./Naropa.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <div class="account-background">
+            <div class="container recruit-container login-container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 elcn-content center" style="width: 40%; padding: 20px;">
+                        <section id="loginForm" class="row" >
+                            <h1 class="col-12 text-center loginHeader" style="text-align: center;">Sign In</h1>
+                            <div id="createAccountLink" class="col-12 crm-link text-center" style="text-align: center;">
+                                <a aria-label="Create Account" href="">Create Account</a>			
+                            </div>
+
+                            <form method="post" novalidate="novalidate" id="naporaLog">		
+                                <div class="crm-login">
+                                    <div class="col-12">
+                                        <div class="recruit-login-email">
+                                            <div class="form-field">
+                                                <label for="Username">Email</label>
+                                                <input autofocus="" class="loginInput" id="Username" name="Username" type="text" value="">
+                                                <span class="field-validation-valid"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="recruit-login-password mb-3">
+                                                <div class="form-field">
+                                                    <label for="Password">Password</label>
+                                                    <input class="loginInput" id="Password" name="Password" type="password">
+                                                    <span class="field-validation-valid"></span>
+                                                </div>
+                                            </div>
+                                        </div>                
+                                    </div>
+                                    
+                                    <div id="resetPasswordLink" class="col-12 crm-link menu-link">
+                                        <a aria-label="Forgot your password??" href="">Forgot your password??</a>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="col-12 crm-login-checkbox">
+                                            <div class="form-field"><input data-val="true" data-val-required="The Remember Me field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false"><label for="RememberMe">Remember Me</label><span class="field-validation-valid" data-valmsg-for="RememberMe" data-valmsg-replace="true"></span></div>
+                                        </div>
+                                        <div class="col-12 crm-login-checkbox">
+                                            <div class="form-field"><input data-val="true" data-val-required="The Are you signed in from a public computer? field is required." id="IsPublicCompter" name="IsPublicCompter" type="checkbox" value="true"><input name="IsPublicCompter" type="hidden" value="false"><label for="IsPublicCompter">Are you signed in from a public computer?</label><span class="field-validation-valid" data-valmsg-for="IsPublicCompter" data-valmsg-replace="true"></span></div>
+                                        </div>
+                                        <div class="col-12 text-center">
+                                            <input type="submit" class="btn btn-primary btn-lg loginButton" value="Sign In" id="submitLogin" style="cursor: pointer;">
+                                        </div>
+                                    </div>
+                            </form>
+                            <div class="col-12 text-center elcn-content-footer">
+                                <strong>Naropa University</strong> | Wulsin Hall, Arapahoe Campus, Boulder, Colorado 80302 | 1-800-772-6951
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <a onclick="window.open(&#39;https://www.naropa.edu/registrar/privacy-records/index.php&#39;), &#39;_blank&#39;" href="javascript:void(0)">Privacy Policy</a>
+        </div>
+    </div>
+    <script src="./na.js"></script>
+</body>
+</html>
